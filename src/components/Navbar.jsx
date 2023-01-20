@@ -13,7 +13,7 @@ const Navbar = () => {
         <Logo />
         <GiHamburgerMenu onClick={handleMenu} size={28} className='sm:hidden' />
         <div className=' gap-4 hidden sm:flex'>
-          <Link to='/home'>Home</Link>
+          <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/contactUs'>Contact us</Link>
         </div>
