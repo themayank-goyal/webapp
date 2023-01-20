@@ -30,7 +30,7 @@ const Footer = () => {
           <h1 className='font-bold'>Quick Links</h1>
           <Link to='/'>Home</Link>
           <Link to='/about'>About Me</Link>
-          <Link to='/contact'>Contact Us</Link>
+          <Link to='/contactUs'>Contact Us</Link>
         </div>
         <div className='mb-6 flex flex-col gap-4'>
           <h1 className='font-bold'>Legal Stuff</h1>
