@@ -4,15 +4,11 @@ import Logo from './Logo';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
-  const handleMenu = () => {
-
-  }
   return (
-    <div>
-      <div className='border- p-2 flex justify-between items-center'>
+    <div className=''>
+      <div className='px-4 border- p-2 flex flex-col text-center justify-between items-center sm:flex-row'>
         <Logo />
-        <GiHamburgerMenu onClick={handleMenu} size={28} className='sm:hidden' />
-        <div className=' gap-4 hidden sm:flex'>
+        <div className=' gap-8 flex mt-3 mb-2 sm:flex-row'>
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/contactUs'>Contact us</Link>

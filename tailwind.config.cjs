@@ -17,9 +17,11 @@ module.exports = {
       },
       fontSize: {
         'xxs': '0.5rem',
+      },
+      maxWidth: {
+        '100': '36rem',
       }
-
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

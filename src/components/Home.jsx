@@ -37,7 +37,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className='mb-8 p-8 flex flex-col gap-4 items-center text-center bg-darkbg'>
+      <div className='pb-32 p-16 flex flex-col gap-4 items-center text-center bg-darkbg'>
         <h1 className='mt-2 font-ooohbaby text-xl'>
           “The first step is always the most difficult part of a journey.”
         </h1>
